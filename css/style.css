@@ -324,6 +324,7 @@ html, body {
 }
 
 .language-toggle {
+    cursor: none;
     background: transparent;
     border: 1px solid #757575;
     color: #757575;
@@ -337,6 +338,7 @@ html, body {
 }
 
 .language-toggle:hover {
+    cursor: none;
     background: rgba(255, 255, 255, 0.1);
     color: #dbdbdb;
     border-color: #dbdbdb;
