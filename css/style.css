@@ -201,6 +201,19 @@ p {
     background-size: 200% auto;
 }
 
+.portfolio-info a {
+    cursor: none;
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+    letter-spacing: 0px;
+    background: linear-gradient(to right, #dbdbdb 0%, #757575 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: gradientShift 4s ease infinite;
+    background-size: 200% auto;
+}
 /* Анимации */
 @keyframes fadeIn {
     from {
