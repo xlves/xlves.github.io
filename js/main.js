@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => {
             loader.remove();
         }, 500);
-    }, 1200); // Время задержки для демонстрации
+    }, 800); // Время задержки для демонстрации
 });
 
 
