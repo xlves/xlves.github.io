@@ -205,7 +205,7 @@ p {
     cursor: none;
     font-size: 1rem;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin: 0 auto;
     letter-spacing: 0px;
     background: linear-gradient(to right, #dbdbdb 0%, #757575 100%);
     -webkit-background-clip: text;
