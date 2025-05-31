@@ -203,8 +203,8 @@ p {
 
 .portfolio-info a {
     cursor: none;
-    font-size: 1.3rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     margin-bottom: 15px;
     letter-spacing: 0px;
     background: linear-gradient(to right, #dbdbdb 0%, #757575 100%);
