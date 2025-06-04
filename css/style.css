@@ -10,15 +10,11 @@ body {
     width: 100%
     margin 0 auto;
     padding: 0;
-    font-family: 'DM Mono', monospace;
+    font-family: 'Press Start 2P', cursive;
     line-height: 1.6;
     color: #ffffff;
     background-color: #0a0a0a;
     overflow-x: hidden;
-}
-
-button {
-    cursor: none;
 }
 .loader {
     position: fixed;
@@ -72,7 +68,7 @@ header {
 }
 
 h1 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     font-weight: 600;
     margin-bottom: 0px;
     letter-spacing: -1px;
@@ -86,7 +82,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 10px;
     letter-spacing: -1px;
@@ -99,7 +95,7 @@ h2 {
 }
 
 h5 {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0px;
     letter-spacing: 0px;
@@ -113,7 +109,7 @@ h5 {
 
 a {
     cursor: none;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     font-weight: 500;
     margin-bottom: 15px;
     letter-spacing: 0px;
@@ -126,7 +122,7 @@ a {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 0.8rem;
     color: #aaa;
     max-width: 600px;
     margin: 0 auto;
@@ -179,16 +175,16 @@ p {
 }
 
 .portfolio-info p {
-    font-size: 1.1rem;
-    color: #aaa;
+    font-size: 0.7rem;
+    color: #817d7d;
     max-width: 600px;
     margin: 0 auto;
     font-weight: 300;
-    line-height: 1.8;
+    line-height: 2.3;
 }
 
 .portfolio-info p1 {
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 15px;
     letter-spacing: -1px;
@@ -202,7 +198,7 @@ p {
 
 .portfolio-info a {
     cursor: none;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     margin: 0 auto;
     letter-spacing: 0px;
@@ -243,11 +239,12 @@ p {
     }
     
     h1 {
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     
     p {
-        font-size: 1rem;
+        white-space: nowrap;
+        font-size: 0.7rem;
     }
     
     .portfolio-image {
@@ -284,7 +281,7 @@ html, body {
 }
 
 .links-paragraph {
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     color: #aaa;
     max-width: 600px;
     margin: 0 auto;
@@ -293,6 +290,7 @@ html, body {
 }
 
 .underline-link {
+  white-space: nowrap;
   display: inline-block;
   position: relative;
   color: inherit; 
@@ -328,21 +326,19 @@ html, body {
 }
 
 .language-toggle {
-    cursor: none;
     background: transparent;
     border: 1px solid #757575;
     color: #757575;
     padding: 2px 8px;
     border-radius: 4px;
-    font-family: 'DM Mono', monospace;
-    font-size: 0.9rem;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 0.7rem;
     margin-left: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .language-toggle:hover {
-    cursor: none;
     background: rgba(255, 255, 255, 0.1);
     color: #dbdbdb;
     border-color: #dbdbdb;
