@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => {
             loader.remove();
         }, 500);
-    }, 800); // Время задержки для демонстрации
+    }, 1200); // Время задержки для демонстрации
 });
 
 
@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
             'genderText': 'Male',
             'countryTitle': 'Country:',
             'countryText': 'Russia',
-            'spokenLanguagesTitle': 'Languages:',
+            'spokenLanguagesTitle': 'Language:',
             'spokenLanguagesText': 'Russian, English',
             'projectsTitle': 'Projects',
             'infoTitle': 'Information',
