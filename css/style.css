@@ -1,1 +1,183 @@
+:root {
+    --site-bg: #111111;
+    --site-text: #d1d5db;
+    --site-accent: #5a8eff;
+    --site-border: #181a1b;
+    --site-card: #252525;
+    --site-icon: #d1d5db;
+    --icon-hover: #5a8eff;
+}
 
+body {
+    font-family: 'Poppins', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--site-bg);
+    color: var(--site-text);
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.title {
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: -1rem;
+    letter-spacing: 0px;
+}
+
+.description {
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0 auto 0rem;
+    color: #fff;
+    max-width: 700px;
+}
+
+.social-links {
+    text-align: center;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.social-link {
+    color: var(--site-text);
+    text-decoration: none;
+    font-size: 1.2rem;
+    position: relative;
+    transition: all 0.3s ease;
+    padding-bottom: 2px;
+    display: inline-block;
+}
+
+.social-link:hover {
+    color: #fff;
+}
+
+.social-link:hover::after {
+    width: 100%;
+}
+
+.social-link[href*="github.com"]:hover {
+    color: var(--site-accent);
+}
+
+.social-link[href*="youtube.com"]:hover {
+    color: var(--site-accent);
+}
+
+.separator {
+    color: var(--site-text);
+    opacity: 0.6;
+    font-size: 1.1rem;
+    transition: opacity 0.3s ease;
+    display: inline-block;
+    margin: 0 4px;
+}
+
+.projects-row {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 1.5rem;
+}
+
+.project {
+    flex: 1;
+    border: 1px solid var(--site-border);
+    border-radius: 4px;
+    padding: 1.5rem;
+    transition: all 0.2s;
+    margin-bottom: 0;
+}
+
+.project:hover {
+    border-color: var(--site-accent);
+}
+
+.project-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 0.5rem 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-icon {
+    flex-shrink: 0;
+    color: var(--site-icon);
+    transition: color 0.3s ease;
+}
+
+.project:hover .project-icon {
+    color: var(--icon-hover);
+}
+
+.project:hover .highlight-name {
+    color: var(--icon-hover);
+}
+
+.project-desc {
+    font-size: 1.3rem;
+    color: var(--site-text);
+    margin: 0;
+    padding-left: 26px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.project-desc a {
+    color: var(--site-text);
+    text-decoration: none;
+    transition: color 0.3s ease;
+    position: relative;
+}
+
+.project-desc a:hover {
+    color: var(--site-accent);
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    
+    .title {
+        font-size: 2rem;
+    }
+    
+    .projects-row {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    
+    .project {
+        padding: 1.2rem;
+    }
+    
+    .social-links {
+        margin-bottom: 2rem;
+    }
+}
+
+.highlight-name {
+    transition: color 0.3s ease;
+    color: var(--site-text);
+}
+
+.highlight-name:hover {
+    color: var(--site-accent);
+    cursor: default;
+}
